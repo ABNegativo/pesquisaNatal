@@ -108,7 +108,7 @@
 <form action="cadastro.php" method="POST" class="container__formulario" enctype="multipart/form-data">
   <section class="container__logo_h1">
     <div>
-      <img class="logo__redondo" src="https://i.ibb.co/ZJc2dbx/Group-15.png" alt="Logo redondo da prefeitura de Três Lagoas">
+      <img class="logo__redondo" src="/capivaras/LogoGorro.png" alt="Logo redondo da prefeitura de Três Lagoas">
     </div>
     <div style="text-align: center;">
       <h1 class="titulo">Pesquisa de satisfação pública</h1>
@@ -131,78 +131,50 @@
 
      <!-- ---------------------------PRIMEIRO CONTAINER----------------------------------- -->
 
-     <div class="col-12">
-      <label for="inputAddress" class="form-label">Em que cidade você reside?</label>
+    <div class="col-12" style="margin-bottom: 4rem;">
+      <label for="inputAddress" class="form-label">&#8226; Em que cidade você reside?</label>
       <input type="text" class="form-control" id="cidadeResidente" name="cidadeResidente" placeholder="">
     </div>
 
+    <hr>
+
     <div class="col-12">
-      <label for="inputAddress" class="form-label">Qual nota você daria para a organização do evento?</label>
+      <label for="inputAddress" class="form-label">&#8226; Qual nota você daria para a organização do evento?</label>
 
       <div class="container__capivaras">
 
-        <button class="container__capivaras_botao" type="button">
+        <button class="container__capivaras_botao" id="botaoMuitoSatisfeito1" type="button">
           <div class="container__capivaras_texto">
             <img class="botoesCapivara" src="/capivaras/1 Muito Satisfeito.png"/>
             <label>Muito Satisfeito</label>
           </div>
         </button>
         
-        <button class="container__capivaras_botao" type="button">
+        <button class="container__capivaras_botao" id="botaoSatisfeito1" type="button">
           <div class="container__capivaras_texto">
-            <img class="botoesCapivara" src="/capivaras/2 - Satisfeito.png"/>
-            <label>Satisfeito</label>
+              <img class="botoesCapivara" src="/capivaras/2 - Satisfeito.png"/>
+              <label>Satisfeito</label>
           </div>
         </button>
 
-        <button class="container__capivaras_botao" type="button">
+        <button class="container__capivaras_botao" id="botaoNeutro1" type="button">
           <div class="container__capivaras_texto">
             <img class="botoesCapivara" src="/capivaras/3 - Neutro.png"/>
             <label>Neutro</label>
           </div>
         </button>
 
-        <button class="container__capivaras_botao" type="button">
+        <button class="container__capivaras_botao" id="botaoInsatisfeito1" type="button">
           <div class="container__capivaras_texto">
             <img class="botoesCapivara" src="/capivaras/4 - Insatisfeito.png"/>
             <label>Instatisfeito</label>
           </div>
         </button>
 
-      </div>
-
-    </div>
-
-    <div class="col-12">
-      <label for="inputAddress" class="form-label">Qual nota você daria para os atrativos do evento? (Gastronomia, Shows, Parque, Artesanato, etc...)</label>
-      
-      <div class="container__capivaras">
-
-        <button class="container__capivaras_botao" type="button">
+        <button class="container__capivaras_botao" id="botaoMuitoInsatisfeito1" type="button">
           <div class="container__capivaras_texto">
-            <img class="botoesCapivara" src="/capivaras/1 Muito Satisfeito.png"/>
-            <label>Muito Satisfeito</label>
-          </div>
-        </button>
-        
-        <button class="container__capivaras_botao" type="button">
-          <div class="container__capivaras_texto">
-            <img class="botoesCapivara" src="/capivaras/2 - Satisfeito.png"/>
-            <label>Satisfeito</label>
-          </div>
-        </button>
-
-        <button class="container__capivaras_botao" type="button">
-          <div class="container__capivaras_texto">
-            <img class="botoesCapivara" src="/capivaras/3 - Neutro.png"/>
-            <label>Neutro</label>
-          </div>
-        </button>
-
-        <button class="container__capivaras_botao" type="button">
-          <div class="container__capivaras_texto">
-            <img class="botoesCapivara" src="/capivaras/4 - Insatisfeito.png"/>
-            <label>Instatisfeit</label>
+            <img class="botoesCapivara" src="/capivaras/5 - Muito Insatisfeito.png">
+            <label>Muito Insatatisfeito</label>
           </div>
         </button>
 
@@ -210,55 +182,112 @@
 
     </div>
 
+    <hr>
+
     <div class="col-12">
-      <label for="inputAddress" class="form-label">Qual nota você daria para o evento? (Local, Acesso, Banheiros Estrutura, etc...)</label>
+      <label for="inputAddress" class="form-label">&#8226; Qual nota você daria para os atrativos do evento? (Gastronomia, Shows, Parque, Artesanato, etc...)</label>
       
       <div class="container__capivaras">
 
-        <button class="container__capivaras_botao" type="button">
+        <button class="container__capivaras_botao" id="botaoMuitoSatisfeito2" type="button">
           <div class="container__capivaras_texto">
             <img class="botoesCapivara" src="/capivaras/1 Muito Satisfeito.png"/>
             <label>Muito Satisfeito</label>
           </div>
         </button>
         
-        <button class="container__capivaras_botao" type="button">
+        <button class="container__capivaras_botao" id="botaoSatisfeito2" type="button">
           <div class="container__capivaras_texto">
             <img class="botoesCapivara" src="/capivaras/2 - Satisfeito.png"/>
             <label>Satisfeito</label>
           </div>
         </button>
 
-        <button class="container__capivaras_botao" type="button">
+        <button class="container__capivaras_botao" id="botaoNeutro2" type="button">
           <div class="container__capivaras_texto">
             <img class="botoesCapivara" src="/capivaras/3 - Neutro.png"/>
             <label>Neutro</label>
           </div>
         </button>
 
-        <button class="container__capivaras_botao" type="button">
+        <button class="container__capivaras_botao" id="botaoInsatisfeito2" type="button">
           <div class="container__capivaras_texto">
             <img class="botoesCapivara" src="/capivaras/4 - Insatisfeito.png"/>
             <label>Instatisfeito</label>
           </div>
         </button>
+
+        <button class="container__capivaras_botao" id="botaoMuitoInsatisfeito2" type="button">
+          <div class="container__capivaras_texto">
+            <img class="botoesCapivara" src="/capivaras/5 - Muito Insatisfeito.png">
+            <label>Muito Insatatisfeito</label>
+          </div>
+        </button>
+
+      </div>
+
+    </div>
+
+    <hr> 
+
+    <div class="col-12">
+      <label for="inputAddress" class="form-label">&#8226; Qual nota você daria para o evento? (Local, Acesso, Banheiros Estrutura, etc...)</label>
+      
+      <div class="container__capivaras">
+
+        <button class="container__capivaras_botao" id="botaoMuitoSatisfeito3" type="button">
+          <div class="container__capivaras_texto">
+            <img class="botoesCapivara" src="/capivaras/1 Muito Satisfeito.png"/>
+            <label>Muito Satisfeito</label>
+          </div>
+        </button>
+        
+        <button class="container__capivaras_botao" id="botaoSatisfeito3" type="button">
+          <div class="container__capivaras_texto">
+            <img class="botoesCapivara" src="/capivaras/2 - Satisfeito.png"/>
+            <label>Satisfeito</label>
+          </div>
+        </button>
+
+        <button class="container__capivaras_botao" id="botaoNeutro3" type="button">
+          <div class="container__capivaras_texto">
+            <img class="botoesCapivara" src="/capivaras/3 - Neutro.png"/>
+            <label>Neutro</label>
+          </div>
+        </button>
+
+        <button class="container__capivaras_botao" id="botaoInsatisfeito3" type="button">
+          <div class="container__capivaras_texto">
+            <img class="botoesCapivara" src="/capivaras/4 - Insatisfeito.png"/>
+            <label>Insatatisfeito</label>
+          </div>
+        </button>
+
+        <button class="container__capivaras_botao" id="botaoMuitoInsatisfeito3" type="button">
+          <div class="container__capivaras_texto">
+            <img class="botoesCapivara" src="/capivaras/5 - Muito Insatisfeito.png">
+            <label>Muito Insatatisfeito</label>
+          </div>
+        </button>
       
       </div>
 
     </div>
 
-    <div class="col-12">
-      <label for="inputState" class="form-label">Você voltaria a este evento no ano que vem?</label>
-      <select id="inputState" class="form-select">
-        <option selected></option>
+    <hr>
+
+    <div class="col-12" style="margin-bottom: 2rem;">
+      <label for="inputState" class="form-label">&#8226; Você voltaria a este evento no ano que vem?</label>
+      <select id="inputState" class="form-select text-start">
+        <option disabled selected hidden></option>
         <option value="Sim">Sim</option>
         <option value="Não">Não</option>
       </select>
     </div>
- 
 
       <!-- --------------------------FINAL DO PRIMEIRO CONTAINER----------------------------------- -->
-    </section>
+  </section>
+  
 </section>
 
 </form>
@@ -273,12 +302,8 @@
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.9/cropper.min.js" integrity="sha512-9pGiHYK23sqK5Zm0oF45sNBAX/JqbZEP7bSDHyt+nT3GddF+VFIcYNqREt0GDpmFVZI3LZ17Zu9nMMc9iktkCw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="../js/mascaraInputs.js"></script>
-<script src="../js/buscarCEP.js"></script>
-<script src="../js/valorOperacao.js"></script>
-<script src="../js/desbailitarCorretora.js"></script>
-<script src="../js/MostrarInputs.js"></script>
 <script src="../js/abrirModal.js"></script>
+<script src="../js/controleGuirlanda.js"></script>
 
 </body>
 </html>

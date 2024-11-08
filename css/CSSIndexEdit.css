@@ -20,6 +20,12 @@
 
 }
 
+html {
+
+    overflow-x: hidden;
+
+}
+
 body {
 
     font-family: "Lato", sans-serif;
@@ -103,6 +109,15 @@ header {
 .logo__redondo {
 
     margin: var(--espaçamento-logo-primario);
+    width: 12rem;
+
+}
+
+
+.container__capivaras_guirlhanda {
+
+    width: 4rem;
+    z-index: 1;
 
 }
 
@@ -118,6 +133,13 @@ header {
 
     background: none;
     border: none;
+    cursor: pointer;
+
+}
+
+img.botoesCapivara {
+
+    margin-bottom: 1rem;
 
 }
 
@@ -130,9 +152,57 @@ header {
 
 }
 
+.text-start {
+
+    text-align: start !important;
+
+}
+
+@media (max-width: 768px) {
+    
+    .container__capivaras_texto {
+
+        font-size: 12px !important;
+    
+    }
+
+    label.form-label {
+
+        font-size: 14px;
+    
+    }
+
+    div.col-12 {
+
+        text-align: start !important;
+
+    }
+    
+    .section__fundo {
+
+        width: 90vw;
+        box-sizing: border-box;
+
+    }
+
+    .container__capivaras {
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+
 .botoesCapivara {
 
     width: 4em;
+    z-index: 2;
+
+}
+
+.form-label {
+
+    margin-top: 2rem;
 
 }
 
@@ -227,6 +297,7 @@ header {
 
     border: solid 1px;
     padding: 2em;
+    box-sizing: border-box;
     border-radius: 8px;
     background: rgba(114, 139, 206, 0.418);
 
@@ -256,8 +327,8 @@ header {
 .secao__completa {
 
     margin-bottom: 2em;
-    max-height: 30em;
-    overflow-y: auto;
+    /* max-height: 30em; */
+    /* overflow-y: auto; */
 
 }
 
@@ -599,6 +670,7 @@ p {
 
     .logo__redondo {
 
+        width: 16rem;
         display: none;
 
     }
@@ -717,7 +789,7 @@ p {
 
         text-align: center;
         font-weight: var(--fonte-regular);
-        width: 100%;
+        width: 100% !important;
                 
     }
 
