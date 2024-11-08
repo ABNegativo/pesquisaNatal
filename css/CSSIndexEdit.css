@@ -186,8 +186,9 @@ img.botoesCapivara {
     }
 
     .container__capivaras {
-        justify-content: center;
-        align-items: center;
+
+        flex-direction: column;
+        
     }
 
 }
