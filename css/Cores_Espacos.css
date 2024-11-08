@@ -1,0 +1,44 @@
+:root {
+
+    /* Cores */
+    
+    --cor-azul:#1E4896;
+    --cor-azul-claro: #1967D2;
+    --cor-branco: #FBFBFB;
+    --cor-borda-inputtext: #ababab;
+    --cor-caixa-informativo: #dfdcdc;
+    --cor-borda-botao: #303030;
+    
+    /* Tamanho de bordas e curvatura */
+    
+    --borda-padrao-inputtext: 2.5px;
+    --borda-fina-inputtext: .1px;
+    --curvatura-padrao: 8px;
+    
+    /* Espaçamento de elementos */
+    
+    --espaçamento-container-primario: 6.5em 0 1.5em 0;
+    --espaçamento-logo-primario: 1em 0 1em 0;
+    --espaçamento-container-formulario: 0 0 1.5em 0;
+    --espaçamento-paragrafo: 0 0 0.5em 0;
+    --espaçamento-caixa: .5em;
+    
+    /* Peso das letras */
+    
+    --fonte-light: 300;
+    --fonte-regular: 600;
+    --fonte-medium: 800;
+    --fonte-bold: 900;
+    
+    /* Tamanho das letras */
+    
+    --paragrafo-titulo: 32px;
+    --paragrafo-maior: 24px;
+    --paragrafo-comum: 16px;
+    --paragrafo-informativo: 14px;
+    
+    --paragrafo-maior-mobile: 21px;
+    --paragrafo-informativo-mobile: 12px;
+    
+    }
+    

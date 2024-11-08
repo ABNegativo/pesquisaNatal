@@ -1,0 +1,96 @@
+@import "Cores_Espacos.css";
+@import "CSSIndexEdit.css";
+
+.container__sucesso {
+
+    margin: 8vw 0 0 0;
+
+}
+
+.container__sucesso__img, .container__sucesso__textoButton {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1.5em 0 0 0;
+
+}
+
+.icon__sucesso {
+
+    height: 24em;
+    position: relative;
+    left: 1.5em;
+
+}
+
+.paragrafo__sucesso {
+
+    color: var(--cor-borda-botao);
+    font-weight: var(--fonte-medium);
+    font-size: var(--paragrafo-titulo);
+
+}
+
+.paragrafo__tenteNovamente {
+
+    color: var(--cor-borda-botao);
+    font-size: var(--fonte-medium);
+    font-size: var(--paragrafo-maior);
+
+}
+
+.btn-primary {
+
+    font-weight: var(--fonte-regular);
+    font-size: var(--paragrafo-maior);
+
+}
+
+.btn {
+
+    display: flex;
+    margin: 1.2em 0 0 0 !important;
+    width: 10em !important;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.texto__button__submit {
+
+    color: var(--cor-branco);
+    text-decoration: none;
+
+}
+
+@media (max-width: 768px) {
+
+    .container__sucesso__img {
+
+        margin: 5em 0 0 0;
+
+    }
+
+    .icon__sucesso {
+
+        height: 12em;
+        left: 1em;
+
+    }
+
+    .paragrafo__sucesso {
+
+        font-size: var(--paragrafo-maior);
+
+    }
+
+    .btn {
+
+        font-size: var(--paragrafo-comum);
+        width: 11em !important;
+
+    }
+
+}
