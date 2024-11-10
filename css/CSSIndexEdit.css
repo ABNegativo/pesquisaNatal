@@ -125,7 +125,8 @@ header {
 
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: baseline;
+    /* text-align: center; */
     margin: 1.5rem 0;
 }
 
@@ -135,6 +136,19 @@ header {
     border: none;
     cursor: pointer;
 
+}
+
+.container__capivaras_descritivo {
+
+    font-size: 12px;
+    opacity: 0;
+
+}
+
+.container__capivaras_botao:hover .container__capivaras_descritivo{
+
+    opacity: 1;
+    
 }
 
 img.botoesCapivara {
@@ -187,7 +201,8 @@ img.botoesCapivara {
 
     .container__capivaras {
 
-        flex-direction: column;
+        /* flex-direction: column; */
+        justify-content: space-around;
         
     }
 
@@ -393,6 +408,7 @@ img.botoesCapivara {
     border-top: .1px solid var(--cor-borda-inputtext); 
     border-right: var(--borda-padrao-inputtext) solid var(--cor-borda-inputtext);
     border-bottom: var(--borda-padrao-inputtext) solid var(--cor-borda-inputtext);
+    background-color: #ffffff4f;
     border-left: 0;
     
 }
@@ -654,6 +670,12 @@ p {
     text-align: center;
   
   }
+
+.form-select {
+
+    background-color: #ffffff4f;
+
+}
 
 @media (max-width: 768px) {
 
