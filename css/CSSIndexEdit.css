@@ -209,6 +209,7 @@ img.botoesCapivara {
 
         /* flex-direction: column; */
         justify-content: center;
+        flex-wrap: wrap;
         
     }
 
