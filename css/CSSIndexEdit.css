@@ -141,15 +141,21 @@ header {
 .container__capivaras_descritivo {
 
     font-size: 12px;
-    opacity: 0;
+    /* opacity: 0; */
 
 }
 
-.container__capivaras_botao:hover .container__capivaras_descritivo{
+/* .container__capivaras_botao:hover .container__capivaras_descritivo{
 
     opacity: 1;
     
 }
+
+.container__capivaras_botao:focus .container__capivaras_descritivo{
+
+    opacity: 1;
+    
+} */
 
 img.botoesCapivara {
 
