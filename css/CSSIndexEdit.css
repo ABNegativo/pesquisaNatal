@@ -229,6 +229,13 @@ img.botoesCapivara {
 
 }
 
+.container__button {
+
+    display: flex;
+    justify-content: center;
+    
+}
+
 .containers__lado_a_lado {
 
     display: flex;
